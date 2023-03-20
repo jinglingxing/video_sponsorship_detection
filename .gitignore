@@ -1,0 +1,6 @@
+venv/
+.ipynb_checkpoints/
+
+src/models/full_word2vec.model
+src/models/full_word2vec.model.syn1neg.npy
+src/models/full_word2vec.model.wv.vectors.npy
