@@ -26,13 +26,16 @@ The purpose of the project is to work in close collaboration with companies that
 │   │   ├── word2vec.py  # Main function: Apply word2vec to our processed transcript: processed_transcript_videos_df.csv 
 │   │   ├── app.py  # A CLI app to group videos together based on user's search
 │   │   ├── DocSim.py  # Calculates similarity scores between given source document & all the target documents
-│   │   ├── full_word2vec.model  # word2vec model
+│   │   ├── full_word2vec.model  # word2vec model(need to run word2vec.py to generate it locally, it's more than 1G)
 ├── .gitignore            
 ├── requirements.txt
 └── README.md               # The top-level README for developers using this project.
 ```
 
-### How to use it?
+### How to run code?
+First, you need to create your virtual environment using `requirements.txt`. <br/>
+you need to generate `word2vec.model` locally since it's more than 1G. <br/>
+Then, using the below code to run app. <br/>
 - cd src/models
 - python app.py -h
 - python app.py -p 'video_game' -k 'csgo' -s 10000 -v 20 -t 1000000
@@ -40,20 +43,10 @@ The purpose of the project is to work in close collaboration with companies that
 - Click the link
 
 ### Finding the right content creator
-
-The first thing a sponsor would be looking for is to understand which content creator is the best for their product. A good content creator for a product is:
-1. A content creator that has an audience that relates to the product the sponsor is trying to sell.
-2. A content creator that has a good feedback from the audience.
-3. A content creator that had a good traction with the audience and has an audience that is likely to watch the advertisement.
-4. If the sponsorship is mentioned in the comments, what is the sentiment with it?
-
-The first feature of our project is to categorise content creators. In fact, the most important concern for sponsors is to have an audience that will relate to the product and potentially buy it. Then, once in a category, content creators will be rated based on the feedback of the audience on their video, sponsored and not sponsored. 
+The first feature of our project is to categorise content creators. In fact, the most important concern for sponsors is to have an audience that will relate to the product and potentially buy it. Then, once in a category, content creators will be rated and searched based on the statistics of their channels and the cosine similarity of keywords.
 
 ![page 1](images/page1_kaggle.PNG)
 
 ![page 2](images/page2_kaggle.PNG)
 
-### Finding if the content creators respected the contract
-
-Now that the content creator and the company agreed on a contract and the video has been made. The content creator should be able to share the video with the company. Once the  video shared, the company can use our second feature to detect if the video satisfies the contract of the advertiser (length, specific content) automatically.
 
