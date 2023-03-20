@@ -1,0 +1,75 @@
+{
+  'kind': 'youtube#channelListResponse',
+  'etag': 'pJ1xjSemWH5vnrGnBfZ2N6S4cec',
+  'pageInfo': {'totalResults': 5, 'resultsPerPage': 5},
+  'items': [
+    {
+      'kind': 'youtube#channel',
+      'etag': 'kaQquyzYHUdNTxxn4uvAEV2-Ylo',
+      'id': 'UCpVk_OmMmRs0RnmOQTHXyrA',
+      'statistics': {
+        'viewCount': '610813',
+        'subscriberCount': '10900',
+        'hiddenSubscriberCount': False,
+        'videoCount': '259'
+      },
+      'topicDetails': {
+        'topicIds': ['/m/019_rr'],
+        'topicCategories': ['https://en.wikipedia.org/wiki/Lifestyle_(sociology)']}
+    },
+    {
+      'kind': 'youtube#channel',
+      'etag': '2JNYBoVNLRufGCiyslk2_HF593Y',
+      'id': 'UCY7ZNcVB9S2T5Go9Yjks3Gg',
+      'statistics': {
+        'viewCount': '20004279',
+        'subscriberCount': '135000',
+        'hiddenSubscriberCount': False,
+        'videoCount': '325'
+      },
+      'topicDetails': {
+        'topicIds': ['/m/07yv9', '/m/019_rr', '/m/0410tth'],
+        'topicCategories': ['https://en.wikipedia.org/wiki/Vehicle', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)', 'https://en.wikipedia.org/wiki/Motorsport']
+      }
+    },
+    {
+      'kind': 'youtube#channel',
+      'etag': 'UUJptTjPO97TciZTCiPvub5WjQQ',
+      'id': 'UCOgz_YflAsYnGbdvzXuKNCA',
+      'statistics': {
+        'viewCount': '48240654',
+        'subscriberCount': '512000',
+        'hiddenSubscriberCount': False,
+        'videoCount': '405'
+      },
+      'topicDetails': {
+        'topicIds': ['/m/032tl', '/m/019_rr'],
+        'topicCategories': ['https://en.wikipedia.org/wiki/Fashion', 'https://en.wikipedia.org/wiki/Lifestyle_(sociology)']}
+    },
+    {
+      'kind': 'youtube#channel',
+      'etag': '6nrHUSYDZfo2TPrVz0t4yrWdZ1Q',
+      'id': 'UC6yzV_xgKn8r77FkcmZyMSg',
+      'statistics': {
+        'viewCount': '626764918',
+        'subscriberCount': '2050000',
+        'hiddenSubscriberCount': False,
+        'videoCount': '4014'
+      },
+      'topicDetails': {
+        'topicIds': ['/m/02ntfj', '/m/025zzc', '/m/0403l3g', '/m/0bzvm2', '/m/03hf_rm'],
+        'topicCategories': ['https://en.wikipedia.org/wiki/Action-adventure_game', 'https://en.wikipedia.org/wiki/Action_game', 'https://en.wikipedia.org/wiki/Role-playing_video_game', 'https://en.wikipedia.org/wiki/Video_game_culture', 'https://en.wikipedia.org/wiki/Strategy_video_game']}
+    },
+    {
+      'kind': 'youtube#channel',
+      'etag': '0hpsNvhEKdDqQJkzQoOx7Wi77lI',
+      'id': 'UC9FfaDy7Rl3rMOzHB_578Rw',
+      'statistics': {
+        'viewCount': '63758',
+        'subscriberCount': '112',
+        'hiddenSubscriberCount': False,
+        'videoCount': '2'
+      }
+    }
+  ]
+}
